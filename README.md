@@ -27,3 +27,5 @@ document.querySelectorAll("nocopy").forEach(node => {
 - El projecto sigue en desarrollo y cambia cada dia, te recomiendo que mires si hay nuevas actualizaciones a menudo
 - Recomiendo instalar algun editor de código como Visual Studio Code porque hay que volver a ejecutar el projecto cada vez que quieras compilar un código logo.
 - Cualquier duda, no olvides en contactarme [link](http://oriol.22web.org/)
+
+<a href="http://example.com/" target="_blank">example</a>
