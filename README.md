@@ -26,6 +26,4 @@ document.querySelectorAll("nocopy").forEach(node => {
 - Las funciones aún no estan disponibles
 - El projecto sigue en desarrollo y cambia cada dia, te recomiendo que mires si hay nuevas actualizaciones a menudo
 - Recomiendo instalar algun editor de código como Visual Studio Code porque hay que volver a ejecutar el projecto cada vez que quieras compilar un código logo.
-- Cualquier duda, no olvides en contactarme <a href="http://oriol.22web.org/" target="_blank">aquí</a>
-
-
+- Cualquier duda, no olvides en contactarme <a href="http://oriol.22web.org/" target="_blank">aquí</a> o abrir un issue
