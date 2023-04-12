@@ -5,6 +5,7 @@ import os
 import sys
 eel.init("web")
 colorValues = {
+
     1: '#fff',
     2: '#ff0',
     3: '#f0f',
@@ -22,6 +23,14 @@ colorValues = {
     15: '#008',
     16: '#000'
 }
+
+functions = {
+    "oriol": {
+        "code": "fd :c",
+        "parameters": [":c"]
+    }
+}
+
 # This function remove spaces and chars that are useless
 def clean(array):
     result = []
