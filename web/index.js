@@ -9,8 +9,6 @@ function execute() {
 }
 function stop(){    
     eel.stop();
-    window.close();
-    console.log("Stop!");
 }
 btnExecute.addEventListener('click', execute);
 btnStop.addEventListener('click', stop);

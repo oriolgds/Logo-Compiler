@@ -12,4 +12,7 @@ eel.init('web')
 def execute(code):
     cm.compile(code)
     
+@eel.expose
+def stop():
+    cm.stop()
 eel.start('index.html')
