@@ -5,7 +5,7 @@ const btnRestart = document.getElementById("btn-restart");
 const console = document.getElementById("console");
 const consoleInput = document.getElementById("console-input");
 function execute() {
-    eel.compile(textarea.value);
+    eel.execute(textarea.value);
 }
 function stop(){    
     eel.stop();
@@ -22,3 +22,4 @@ textarea.addEventListener('keyup', ()=>{
     localStorage.setItem('code-text', textarea.value);
 });
 textarea.value = localStorage.getItem("code-text");
+
