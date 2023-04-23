@@ -28,7 +28,10 @@
                 </ul>
                 <div class="tab-content mb-2" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-editor" role="tabpanel" aria-labelledby="pills-editor-tab" tabindex="0">
-                        <textarea class="form-control mb-3" id="code-input" placeholder="Introduce aquí tu código"></textarea>
+                        <!-- ========== Code input START ========== -->
+                        <!-- <textarea class="form-control mb-3" id="code-input" placeholder="Introduce aquí tu código"></textarea> -->
+                        <div aria-placeholder="Introduce aquí tu código" id="code-input" contenteditable="true" class="form-control mb-2"></div>
+                        <!-- ========== Code input END ========== -->                        
                         <button type="button" id="btn-execute" class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-title="Ejecutar">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16"><path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/></svg>
                         </button>
@@ -63,6 +66,7 @@
     <script src="jquery/jquery-3.6.4.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
+    <script src="editor.js"></script>
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
