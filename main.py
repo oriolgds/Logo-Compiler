@@ -13,6 +13,6 @@ def execute(code):
     cm.compile(code)
     
 @eel.expose
-def stop():
+def stop():    
     cm.stop()
 eel.start('index.html')
